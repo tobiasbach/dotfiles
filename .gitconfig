@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[user]
+	email = tobias.bach@aroundhome.de
+	name = Tobias Bach
+[core]
+	excludesfile = /Users/tobias.mentz/.gitignore
+[pull]
+	ff = only
+[commit]
+	verbose = true
+
+# The following explicitly selects SSH instead of HTTPS
+[url "git@codevault.io:"]
+	insteadOf = https://codevault.io/
+[push]
+	autoSetupRemote = true
